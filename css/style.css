@@ -81,10 +81,11 @@ journey-0f-influencer
     background-color: #E02C6D;
     color: #ffff;
     border: 0;
+    font-weight: 700;
 }
 .journey-right img{
-    width: 400px;
-    height: 350px;
+    width: 440px;
+    height: 414px;
     margin-left: 100px;
    
 }
