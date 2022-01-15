@@ -117,7 +117,7 @@ popular-collection
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-left: 150px;
-    padding-right: 150px;
+    padding-right: 150px; 
 
 }
 
@@ -126,9 +126,9 @@ popular-collection
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding-top: 10px;
     padding-right: 5px;
-    padding-left: 10px;
+    padding-left: 5px;
     border-radius: 10px;
-   
+    
 }
 .common-card img{
     padding: 5px;
@@ -151,6 +151,7 @@ span{
 }
 .click-button{
     float: right;
+    margin-top: 20px;
     padding-right: 160px;
     
 }
@@ -194,8 +195,8 @@ span{
    color: #6C6C6C;
 }
 .explore-button{
-    margin-right: 530px;
-    padding: 15px 5px;
+    margin-right: 500px;
+    padding: 10px 20px;
     color: #ffff;
     background-color: #E02C6D;
     font-weight: 700;
@@ -215,4 +216,107 @@ span{
 }
 .logo-part p i{
    padding: 0 15px;
+}
+
+/* ........
+Responsive CSS
+.... */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+   .influencer-products{
+       grid-template-columns: repeat(1,1fr);
+       display: block;
+       
+       
+   }
+   .journey-right img{
+       width: 50%;
+       margin: 5px;
+       margin-top: 5px;
+   }
+   .navigation{
+       padding: 0;
+   }
+   .journey-of-influencer{
+    grid-template-columns: repeat(1,1fr);
+    display: block;
+    
+   }
+   .journey-left{
+       padding-right: 300px;
+      margin: 0;
+       
+   }
+   .journey-left h1{
+       font-size: 20px;
+   }
+   
+   .common-button{
+       margin: 0;
+       font-size: 20px;
+       padding-right: 50px;
+       padding-left: 50px;
+       
+   }
+   .popular-collection{
+       grid-template-columns: repeat(1,1fr);
+       margin-left: 0;
+       margin-right: 100px;
+       padding-left: 5px;
+       padding-right: 5px;
+   }
+   .coming-soon{
+    grid-template-columns: repeat(1,1fr);
+    display: block;
+   }
+   .extra-img img{
+       width: 50%;
+   }
+   
+}
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+   
+   .journey-right img{
+       width: 80%;
+       margin: 5px;
+       margin-top: 5px;
+   }
+   .navigation{
+       padding: 0;
+   }
+   
+   .journey-left{
+       padding-right: 300px;
+      margin: 0;
+       
+   }
+   .journey-left h1{
+       font-size: 30px;
+   }
+   
+   .common-button{
+       margin: 0;
+       font-size: 20px;
+      
+       
+   }
+   .popular-collection{
+       grid-template-columns: repeat(2,1fr);
+          
+   }
+   .click-button{
+       padding-right: 150px;
+   }
+   .coming-soon{
+    grid-template-columns: repeat(2,1fr);
+    
+   }
+   .extra-img img{
+       width: 80%;
+   }
 }
