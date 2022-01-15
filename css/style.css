@@ -92,7 +92,9 @@ journey-0f-influencer
 /* ....... 
 popular-collection
 ....... */
-
+.popular{
+    margin-bottom: 100px;
+}
 .section-title{
     margin-bottom: 50px;
     padding-left: 50px;
@@ -147,4 +149,55 @@ span{
 }
 .click-button i{
     color: #E02C6D;
+}
+
+/* ......Explore-more.... */
+.coming-soon{
+    display: flex;
+    margin-bottom: 100px;
+}
+.extra-img img{
+    width: 500px;
+    height: 270px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+.info-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+   
+}
+.info-side h1{
+    font-size:35px ;
+}
+.info-side p{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 100px;
+}
+.explore-button{
+    margin-right: 530px;
+    padding: 15px 5px;
+    color: #ffff;
+    background-color: #E02C6D;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+/* ....footer-style.... */
+.copyright{
+    background-color: #0A0826;
+    padding: 40px 0;
+    text-align: center;
+    
+}
+.writing-part,.logo-part{
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.logo-part p i{
+   padding: 0 15px;
 }
