@@ -92,30 +92,32 @@ journey-0f-influencer
 /* ....... 
 popular-collection
 ....... */
-.popular{
-    width: 1047px;
-   height: 1662px;
-}
+
 .section-title{
     margin-bottom: 50px;
-    padding-left: 290px;
+    padding-left: 50px;
     text-align: center;
     
 }
 .popular-collection{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-left: 160px;
+    padding-left: 150px;
+    padding-right: 150px;
 
-  
 }
 
 .common-card{
     margin: 10px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    padding: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
     border-radius: 10px;
    
+}
+.common-card img{
+    padding: 5px;
 }
 
 .fa-star{
@@ -132,4 +134,14 @@ span{
 }
 .product-info p{
     color: #787885;
+}
+.click-button{
+    float: right;
+    padding-right: 160px;
+    
+}
+.click-button a , i{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #E02C6D;
 }
